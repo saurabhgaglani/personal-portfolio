@@ -3,12 +3,13 @@ import React, { useState, useEffect } from 'react';
 const Typewriter = () => {
   const strings = [
     'Full Stack Developer',
-    'Mobile App Developer',
+    'Amateur Chess Player',
+    'VLSI/Verilog Developer',
     'ReactJS',
-    'MongoDB',
+    'SQL Server',
+    'Dotnet',
     'NodeJS',
-    'ExpressJS',
-    'NextJS',
+    'Pyspark',
     'Figma',
   ];
   const [currentStringIndex, setCurrentStringIndex] = useState(0);

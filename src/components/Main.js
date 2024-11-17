@@ -22,16 +22,19 @@ function Main() {
                     <div className="h-10 mt-4">
                         <Typewriter />
                     </div>
-                    <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] text-custom-18 sm:text-[1rem] w-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
-                    I am passionate about building websites and web applications. With a degree in Computer Science from SEECS, NUST, I have honed my technical skills through diverse projects, both individually and in teams. 
-
-                    I have built end-to-end web and mobile applications using technologies such as Figma, Webflow, JavaScript, ReactJS, Next.js, Sass, Bootstrap, Tailwind CSS, Flutter, Dart, NodeJS, Git, MongoDB, and MySQL.
+                    <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
+                    I am passionate about all things tech. From building websites to developing games 
+                    to implementing floating point multipliers in assembly, I love to create and learn new things. 
+                    I am a software engineer with experience in building web applications, games, and microservices. 
+                    I am always looking for new opportunities to learn and grow. 
+                    I am currently a computer engineering student at 
+                    <a href="https://w2.csun.edu/-.8rem] text-custom-18 sm:text-[1rem] w-[" target="_blank" rel="noreferrer" className="text-[#ec6e59;]">CSUN</a>.
                     </p>
                     
                 </div>
-                <div className="flex py-[10px] tm:mt-[40px] items-start mt-[-30px] tm:pr-0 sm:pr-0 sm:justify-between sm:flex-col">
+                <div className="flex py-[10px] tm:mt-[10px] items-start mt-[-30px] tm:pr-0 sm:pr-0 sm:justify-between sm:flex-col">
                     <div className="box" >
-                        <div className="h-full justify-end flex items-center sm:justify-center">
+                        <div className="h-full justify-end flex items-center sm:justify-center pt-5">
                             <img
                                 src={myImage}
                                 alt="main"
@@ -46,10 +49,10 @@ function Main() {
                 </div>
                 <div className="flex place-content-center mt-7 ">
                         <div className="flex flex-row sm:flex-col gap-4">
-                            <a rel="noreferrer" href="https://www.linkedin.com/in/rimsha-6b2407198" target="_blank">
+                            <a rel="noreferrer" href="https://www.linkedin.com/in/saurabh-gaglani/" target="_blank">
                                 <AiFillLinkedin size={40} className="cursor-pointer" />
                             </a>
-                            <a rel="noreferrer" href="https://github.com/rimshub" target="_blank">
+                            <a rel="noreferrer" href="https://github.com/saurabhgaglani" target="_blank">
                                 <AiFillGithub size={40} className="cursor-pointer" />
                             </a>
                         </div>

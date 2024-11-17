@@ -9,7 +9,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_8jt7o5d', 'template_kdtyrag', form.current, 'vJX_4Gj5yD05jWvCS')
+    emailjs.sendForm('service_3ngqgtu', 'template_kdtyrag', form.current, 'vJX_4Gj5yD05jWvCS')
       .then((result) => {
         console.log(result.text);
         console.log("Message Sent");
@@ -59,14 +59,6 @@ function Contact() {
           </div>
         </form>
       </div>
-
-      <div className='flex justify-center items-center font-[350] text-[0.6rem] leading-loose sm:text-[1rem]  tm:text-[1rem]'> Copyright © 2023
-        <span className='font-[500]'>&nbsp;Rimsha&nbsp; </span>
-
-        All Rights Reserved
-
-      </div>
-
     </div>
   );
 }
